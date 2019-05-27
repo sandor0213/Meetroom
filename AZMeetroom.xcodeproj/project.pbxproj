@@ -10,6 +10,11 @@
 		1590ACDF6F78270599825C2B /* Pods_AZMeetroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1A02C112B4DB392B519E6 /* Pods_AZMeetroom.framework */; };
 		1790057F1248CC61E09D8926 /* Pods_AZMeetroomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4059364367F18EFBC2195A29 /* Pods_AZMeetroomUITests.framework */; };
 		36B9205F2D9C5DE9C5A860A5 /* Pods_AZMeetroomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78FCF4FAD8F2786219F14ED /* Pods_AZMeetroomTests.framework */; };
+		99228E40229C6C8300AD3797 /* ExtendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E3F229C6C8300AD3797 /* ExtendView.xib */; };
+		99228E42229C6CCD00AD3797 /* ExtendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E41229C6CCD00AD3797 /* ExtendView.swift */; };
+		99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E43229C6D3D00AD3797 /* MeetingView.xib */; };
+		99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E45229C6D6400AD3797 /* MeetingView.swift */; };
+		99228E49229C6FAE00AD3797 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E48229C6FAE00AD3797 /* Helper.swift */; };
 		99C64886229C0949001B4123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64885229C0949001B4123 /* AppDelegate.swift */; };
 		99C64888229C0949001B4123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64887229C0949001B4123 /* ViewController.swift */; };
 		99C6488B229C0949001B4123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C64889229C0949001B4123 /* Main.storyboard */; };
@@ -44,6 +49,11 @@
 		475F303ADA0D55842D01D0E4 /* Pods-AZMeetroomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomTests/Pods-AZMeetroomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D53597F6155A4F02C79B363 /* Pods-AZMeetroomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomUITests/Pods-AZMeetroomUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B1F9A05977DBFA01677CE8E /* Pods-AZMeetroomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomTests/Pods-AZMeetroomTests.release.xcconfig"; sourceTree = "<group>"; };
+		99228E3F229C6C8300AD3797 /* ExtendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtendView.xib; sourceTree = "<group>"; };
+		99228E41229C6CCD00AD3797 /* ExtendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendView.swift; sourceTree = "<group>"; };
+		99228E43229C6D3D00AD3797 /* MeetingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingView.xib; sourceTree = "<group>"; };
+		99228E45229C6D6400AD3797 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		99228E48229C6FAE00AD3797 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		99C64882229C0949001B4123 /* AZMeetroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZMeetroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C64885229C0949001B4123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C64887229C0949001B4123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		99228E47229C6F8B00AD3797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99228E48229C6FAE00AD3797 /* Helper.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		99C64879229C0949001B4123 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +149,7 @@
 		99C64884229C0949001B4123 /* AZMeetroom */ = {
 			isa = PBXGroup;
 			children = (
+				99228E47229C6F8B00AD3797 /* Supporting Files */,
 				99C64885229C0949001B4123 /* AppDelegate.swift */,
 				99C64887229C0949001B4123 /* ViewController.swift */,
 				99C648B7229C1B41001B4123 /* Controllers */,
@@ -173,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				99C648B3229C179A001B4123 /* AvailableView.xib */,
+				99228E3F229C6C8300AD3797 /* ExtendView.xib */,
+				99228E43229C6D3D00AD3797 /* MeetingView.xib */,
 			);
 			path = "Container Views";
 			sourceTree = "<group>";
@@ -189,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				99C648B9229C1B84001B4123 /* AvailableView.swift */,
+				99228E41229C6CCD00AD3797 /* ExtendView.swift */,
+				99228E45229C6D6400AD3797 /* MeetingView.swift */,
 			);
 			path = "Container Controllers";
 			sourceTree = "<group>";
@@ -314,7 +337,9 @@
 			files = (
 				99C64890229C094B001B4123 /* LaunchScreen.storyboard in Resources */,
 				99C6488D229C094B001B4123 /* Assets.xcassets in Resources */,
+				99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */,
 				99C648B4229C179A001B4123 /* AvailableView.xib in Resources */,
+				99228E40229C6C8300AD3797 /* ExtendView.xib in Resources */,
 				99C6488B229C0949001B4123 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +484,10 @@
 			files = (
 				99C64888229C0949001B4123 /* ViewController.swift in Sources */,
 				99C648BA229C1B84001B4123 /* AvailableView.swift in Sources */,
+				99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */,
+				99228E42229C6CCD00AD3797 /* ExtendView.swift in Sources */,
 				99C64886229C0949001B4123 /* AppDelegate.swift in Sources */,
+				99228E49229C6FAE00AD3797 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
