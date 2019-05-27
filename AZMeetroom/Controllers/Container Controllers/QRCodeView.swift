@@ -1,5 +1,5 @@
 //
-//  ExtendView.swift
+//  QRCodeView.swift
 //  AZMeetroom
 //
 //  Created by Balogh Sandor on 5/27/19.
@@ -8,14 +8,10 @@
 
 import UIKit
 
-class ExtendView: UIView {
+class QRCodeView: UIView {
     
-    @IBOutlet weak var m5: UIButton!
-    @IBOutlet weak var m10: UIButton!
-    @IBOutlet weak var m15: UIButton!
-    @IBOutlet weak var m30: UIButton!
-    @IBOutlet weak var m45: UIButton!
-    @IBOutlet weak var m60: UIButton!
+    @IBOutlet weak var urlLbl: UILabel!
+    @IBOutlet weak var qrCodeImageView: UIImageView!
     
     weak var view: UIView!
     
@@ -28,7 +24,7 @@ class ExtendView: UIView {
     
     func loadViewFromNib() -> UIView {
         let bundle = Bundle(for: type(of: self))
-        let nib    = UINib(nibName: "ExtendView", bundle: bundle)
+        let nib    = UINib(nibName: "QRCodeView", bundle: bundle)
         let view   = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         return view
     }
@@ -43,20 +39,16 @@ class ExtendView: UIView {
         xibSetup()
     }
     
-    @IBAction func extendTime(_ sender: UIButton) {
-        Variables.extendMin = sender.tag
+    func setUp (url: String) {
+        if url != "" {
+            self.urlLbl.text = url
+            if let QRImg = url.createQRCodeImage() {
+                self.qrCodeImageView.image = QRImg
+            }
+        }
     }
-    
     
     @IBAction func btnAction(_ sender: Any) {
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "Extend", "extendMin" : Variables.extendMin])
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "QRCode"])
     }
 }
-
-extension ExtendView {
-    struct Variables {
-        static var extendMin = 0
-    }
-}
-
-
