@@ -60,6 +60,7 @@
 		99228E4A229C705B00AD3797 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
 		99228E4C229C71D600AD3797 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		99228E4E229C724400AD3797 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZMeetroom-Bridging-Header.h"; sourceTree = "<group>"; };
 		99C64882229C0949001B4123 /* AZMeetroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZMeetroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C64885229C0949001B4123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C64887229C0949001B4123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 			children = (
 				99228E48229C6FAE00AD3797 /* Helper.swift */,
 				99228E4E229C724400AD3797 /* Extension.swift */,
+				99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -683,6 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -701,6 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

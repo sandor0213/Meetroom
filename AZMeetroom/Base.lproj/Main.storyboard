@@ -217,6 +217,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1vY-Pk-WbU"/>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="l8e-hr-9q4" id="LxH-MK-KqM"/>
+                        <outlet property="dateLbl" destination="xdp-Ca-R69" id="jwS-8N-3Y9"/>
+                        <outlet property="meetroomTitleLbl" destination="FqV-fh-NV0" id="5DB-xU-kyQ"/>
+                        <outlet property="timeLbl" destination="I2h-z2-28q" id="8HO-9k-7j5"/>
+                        <outlet property="upNextEventsTV" destination="oI4-RI-s2o" id="p0X-TH-yEA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZm-A3-R9q" sceneMemberID="firstResponder"/>
             </objects>
