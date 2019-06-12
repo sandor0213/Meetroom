@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var upNextEventsTV : UITableView!
     @IBOutlet weak var containerView: UIView!
 
-    
-    
     var refreshControl = UIRefreshControl()
     
     var actualView : (AvailableView, QRCodeView, ExtendView, MeetingView) = (AvailableView.init(frame: CGRect.zero), QRCodeView.init(frame: CGRect.zero), ExtendView.init(frame: CGRect.zero), MeetingView.init(frame: CGRect.zero))
