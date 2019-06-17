@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     lkkl
     
     kkk
+    lll
+    kk
     
     @IBOutlet weak var dateLbl: UILabel!
     @IBOutlet weak var timeLbl: UILabel!
