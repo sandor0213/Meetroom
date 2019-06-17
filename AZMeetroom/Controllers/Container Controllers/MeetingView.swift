@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Meeting: UIView {
+class MeetingView: UIView {
     
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var weekLbl: UILabel!
@@ -56,7 +56,7 @@ class Meeting: UIView {
     }
     
     @IBAction func btnAction(_ sender: Any) {
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "QRCode" /*"Meeting", "end" : true*/])
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "QRCode"])
     }
     
     
@@ -73,7 +73,6 @@ class Meeting: UIView {
     func startTimer(difference: Int) {
         self.timerCount = difference
         timer = Timer.scheduledTimer(withTimeInterval: TimeInterval(1.0), repeats: true, block: { (timer) in
-            //        timer = Timer.scheduledTimer(withTimeInterval: TimeInterval(60.0), repeats: true, block: { (timer) in
             self.timerCount -= 1
             if self.timerCount == 0 {
                 self.stopTimer()
@@ -84,15 +83,15 @@ class Meeting: UIView {
     func stopTimer() {
         timer?.invalidate()
         timer = nil
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "QRCode" /*"Meeting", "end" : true*/])
-        //        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "Meeting", "end" : true])
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "containerView"), object: nil, userInfo:["containerView": "QRCode"])
     }
     
 }
 
-extension Meeting {
+extension MeetingView {
     struct Constants {
         static let week = "Week "
     }
 }
+
 

@@ -15,6 +15,9 @@
 		99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E43229C6D3D00AD3797 /* MeetingView.xib */; };
 		99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E45229C6D6400AD3797 /* MeetingView.swift */; };
 		99228E49229C6FAE00AD3797 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E48229C6FAE00AD3797 /* Helper.swift */; };
+		99228E4B229C705B00AD3797 /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E4A229C705B00AD3797 /* QRCodeView.xib */; };
+		99228E4D229C71D600AD3797 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E4C229C71D600AD3797 /* QRCodeView.swift */; };
+		99228E4F229C724400AD3797 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E4E229C724400AD3797 /* Extension.swift */; };
 		99C64886229C0949001B4123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64885229C0949001B4123 /* AppDelegate.swift */; };
 		99C64888229C0949001B4123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64887229C0949001B4123 /* ViewController.swift */; };
 		99C6488B229C0949001B4123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C64889229C0949001B4123 /* Main.storyboard */; };
@@ -54,6 +57,10 @@
 		99228E43229C6D3D00AD3797 /* MeetingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingView.xib; sourceTree = "<group>"; };
 		99228E45229C6D6400AD3797 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		99228E48229C6FAE00AD3797 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		99228E4A229C705B00AD3797 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
+		99228E4C229C71D600AD3797 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		99228E4E229C724400AD3797 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZMeetroom-Bridging-Header.h"; sourceTree = "<group>"; };
 		99C64882229C0949001B4123 /* AZMeetroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZMeetroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C64885229C0949001B4123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C64887229C0949001B4123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				99228E48229C6FAE00AD3797 /* Helper.swift */,
+				99228E4E229C724400AD3797 /* Extension.swift */,
+				99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +203,7 @@
 				99C648B3229C179A001B4123 /* AvailableView.xib */,
 				99228E3F229C6C8300AD3797 /* ExtendView.xib */,
 				99228E43229C6D3D00AD3797 /* MeetingView.xib */,
+				99228E4A229C705B00AD3797 /* QRCodeView.xib */,
 			);
 			path = "Container Views";
 			sourceTree = "<group>";
@@ -212,6 +222,7 @@
 				99C648B9229C1B84001B4123 /* AvailableView.swift */,
 				99228E41229C6CCD00AD3797 /* ExtendView.swift */,
 				99228E45229C6D6400AD3797 /* MeetingView.swift */,
+				99228E4C229C71D600AD3797 /* QRCodeView.swift */,
 			);
 			path = "Container Controllers";
 			sourceTree = "<group>";
@@ -335,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99228E4B229C705B00AD3797 /* QRCodeView.xib in Resources */,
 				99C64890229C094B001B4123 /* LaunchScreen.storyboard in Resources */,
 				99C6488D229C094B001B4123 /* Assets.xcassets in Resources */,
 				99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */,
@@ -485,9 +497,11 @@
 				99C64888229C0949001B4123 /* ViewController.swift in Sources */,
 				99C648BA229C1B84001B4123 /* AvailableView.swift in Sources */,
 				99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */,
+				99228E4D229C71D600AD3797 /* QRCodeView.swift in Sources */,
 				99228E42229C6CCD00AD3797 /* ExtendView.swift in Sources */,
 				99C64886229C0949001B4123 /* AppDelegate.swift in Sources */,
 				99228E49229C6FAE00AD3797 /* Helper.swift in Sources */,
+				99228E4F229C724400AD3797 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -689,6 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

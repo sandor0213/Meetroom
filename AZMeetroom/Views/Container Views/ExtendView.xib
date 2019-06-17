@@ -10,7 +10,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExtendView" customModule="AZMeetroom" customModuleProvider="target">
+            <connections>
+                <outlet property="m10" destination="nZj-gd-kBo" id="2O4-i8-FLq"/>
+                <outlet property="m15" destination="ups-Kv-a4L" id="vox-Zq-QBn"/>
+                <outlet property="m30" destination="rYU-Hv-YR9" id="Ioe-XW-XYA"/>
+                <outlet property="m45" destination="5LW-Ye-gB7" id="r56-qb-Sga"/>
+                <outlet property="m5" destination="ZP3-HN-BVR" id="teI-b1-EcN"/>
+                <outlet property="m60" destination="hvw-27-gtw" id="OXz-LY-oVC"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="Odf-DK-dim">
             <rect key="frame" x="0.0" y="0.0" width="704" height="579"/>
@@ -32,6 +41,9 @@
                             <integer key="value" value="5"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="JJu-go-y7j"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Extend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0S-MF-T5f">
                     <rect key="frame" x="30" y="30" width="104" height="39.5"/>
@@ -58,6 +70,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="ZV4-xn-zr7"/>
+                            </connections>
                         </button>
                         <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZj-gd-kBo">
                             <rect key="frame" x="242" y="0.0" width="160" height="58"/>
@@ -75,6 +90,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="Zbw-4w-iFJ"/>
+                            </connections>
                         </button>
                         <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ups-Kv-a4L">
                             <rect key="frame" x="432" y="0.0" width="160" height="58"/>
@@ -92,6 +110,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="xee-P0-vz2"/>
+                            </connections>
                         </button>
                         <button opaque="NO" tag="45" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LW-Ye-gB7">
                             <rect key="frame" x="242" y="88" width="160" height="58"/>
@@ -109,6 +130,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="Y2x-IF-cYU"/>
+                            </connections>
                         </button>
                         <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYU-Hv-YR9">
                             <rect key="frame" x="52" y="88" width="160" height="58"/>
@@ -126,6 +150,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="1ya-E1-gFI"/>
+                            </connections>
                         </button>
                         <button opaque="NO" tag="60" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvw-27-gtw">
                             <rect key="frame" x="432" y="88" width="160" height="58"/>
@@ -143,6 +170,9 @@
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="extendTime:" destination="-1" eventType="touchUpInside" id="lOA-3p-wrd"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

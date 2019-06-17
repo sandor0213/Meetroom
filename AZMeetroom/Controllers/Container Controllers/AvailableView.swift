@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Available: UIView {
+class AvailableView: UIView {
     
     weak var view: UIView!
     
