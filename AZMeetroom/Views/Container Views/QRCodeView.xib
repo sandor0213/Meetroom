@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QRCodeView" customModule="AZMeetroom" customModuleProvider="target">
+            <connections>
+                <outlet property="qrCodeImageView" destination="Fiu-CM-RhQ" id="fPT-sg-l57"/>
+                <outlet property="urlLbl" destination="cP6-nI-QoP" id="d65-59-fN9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OOS-F7-I3H">
+            <rect key="frame" x="0.0" y="0.0" width="704" height="579"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghe-ZT-bId">
+                    <rect key="frame" x="252" y="484" width="200" height="55"/>
+                    <color key="backgroundColor" red="0.68235766890000005" green="0.68234455589999998" blue="0.68235343690000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="0D8-7V-PPC"/>
+                        <constraint firstAttribute="height" constant="55" id="WVs-OW-zpC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="fSp-NY-StM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan code or enter the URL to book." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP6-nI-QoP">
+                    <rect key="frame" x="165" y="426.5" width="374" height="27.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                    <color key="textColor" red="0.59608262779999999" green="0.59607106450000003" blue="0.59607887270000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUA-2g-wiv">
+                    <rect key="frame" x="352" y="411.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fiu-CM-RhQ">
+                    <rect key="frame" x="202" y="81.5" width="300" height="300"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="SyS-tt-8Xg"/>
+                        <constraint firstAttribute="width" secondItem="Fiu-CM-RhQ" secondAttribute="height" multiplier="1:1" id="UFc-e4-iR7"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="GUA-2g-wiv" firstAttribute="centerX" secondItem="OOS-F7-I3H" secondAttribute="centerX" id="Af6-FM-A5P"/>
+                <constraint firstItem="cP6-nI-QoP" firstAttribute="top" secondItem="GUA-2g-wiv" secondAttribute="bottom" constant="15" id="GXX-uP-RG8"/>
+                <constraint firstItem="cP6-nI-QoP" firstAttribute="centerX" secondItem="OOS-F7-I3H" secondAttribute="centerX" id="IxC-3w-MC1"/>
+                <constraint firstItem="ghe-ZT-bId" firstAttribute="centerX" secondItem="OOS-F7-I3H" secondAttribute="centerX" id="LKT-g4-NIV"/>
+                <constraint firstItem="OtC-oA-U6r" firstAttribute="bottom" secondItem="ghe-ZT-bId" secondAttribute="bottom" constant="40" id="SzP-NN-deZ"/>
+                <constraint firstItem="ghe-ZT-bId" firstAttribute="top" secondItem="cP6-nI-QoP" secondAttribute="bottom" constant="30" id="XNe-1r-qpA"/>
+                <constraint firstItem="Fiu-CM-RhQ" firstAttribute="centerX" secondItem="OOS-F7-I3H" secondAttribute="centerX" id="Y2V-EZ-fSP"/>
+                <constraint firstItem="GUA-2g-wiv" firstAttribute="top" secondItem="Fiu-CM-RhQ" secondAttribute="bottom" constant="30" id="elk-Yn-RC9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="OtC-oA-U6r"/>
+            <point key="canvasLocation" x="32.8125" y="80.078125"/>
+        </view>
+    </objects>
+</document>

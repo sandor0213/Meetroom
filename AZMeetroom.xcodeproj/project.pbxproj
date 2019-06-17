@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1590ACDF6F78270599825C2B /* Pods_AZMeetroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1A02C112B4DB392B519E6 /* Pods_AZMeetroom.framework */; };
+		1790057F1248CC61E09D8926 /* Pods_AZMeetroomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4059364367F18EFBC2195A29 /* Pods_AZMeetroomUITests.framework */; };
+		36B9205F2D9C5DE9C5A860A5 /* Pods_AZMeetroomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78FCF4FAD8F2786219F14ED /* Pods_AZMeetroomTests.framework */; };
+		99228E40229C6C8300AD3797 /* ExtendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E3F229C6C8300AD3797 /* ExtendView.xib */; };
+		99228E42229C6CCD00AD3797 /* ExtendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E41229C6CCD00AD3797 /* ExtendView.swift */; };
+		99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E43229C6D3D00AD3797 /* MeetingView.xib */; };
+		99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E45229C6D6400AD3797 /* MeetingView.swift */; };
+		99228E49229C6FAE00AD3797 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E48229C6FAE00AD3797 /* Helper.swift */; };
+		99228E4B229C705B00AD3797 /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99228E4A229C705B00AD3797 /* QRCodeView.xib */; };
+		99228E4D229C71D600AD3797 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E4C229C71D600AD3797 /* QRCodeView.swift */; };
+		99228E4F229C724400AD3797 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99228E4E229C724400AD3797 /* Extension.swift */; };
 		99C64886229C0949001B4123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64885229C0949001B4123 /* AppDelegate.swift */; };
 		99C64888229C0949001B4123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C64887229C0949001B4123 /* ViewController.swift */; };
 		99C6488B229C0949001B4123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C64889229C0949001B4123 /* Main.storyboard */; };
@@ -14,6 +25,8 @@
 		99C64890229C094B001B4123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C6488E229C094B001B4123 /* LaunchScreen.storyboard */; };
 		99C6489B229C094B001B4123 /* AZMeetroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6489A229C094B001B4123 /* AZMeetroomTests.swift */; };
 		99C648A6229C094B001B4123 /* AZMeetroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C648A5229C094B001B4123 /* AZMeetroomUITests.swift */; };
+		99C648B4229C179A001B4123 /* AvailableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C648B3229C179A001B4123 /* AvailableView.xib */; };
+		99C648BA229C1B84001B4123 /* AvailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C648B9229C1B84001B4123 /* AvailableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4059364367F18EFBC2195A29 /* Pods_AZMeetroomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZMeetroomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47405E95F9C56A7B1550DB2B /* Pods-AZMeetroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom.debug.xcconfig"; sourceTree = "<group>"; };
+		475F303ADA0D55842D01D0E4 /* Pods-AZMeetroomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomTests/Pods-AZMeetroomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D53597F6155A4F02C79B363 /* Pods-AZMeetroomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomUITests/Pods-AZMeetroomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B1F9A05977DBFA01677CE8E /* Pods-AZMeetroomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomTests/Pods-AZMeetroomTests.release.xcconfig"; sourceTree = "<group>"; };
+		99228E3F229C6C8300AD3797 /* ExtendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtendView.xib; sourceTree = "<group>"; };
+		99228E41229C6CCD00AD3797 /* ExtendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendView.swift; sourceTree = "<group>"; };
+		99228E43229C6D3D00AD3797 /* MeetingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingView.xib; sourceTree = "<group>"; };
+		99228E45229C6D6400AD3797 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		99228E48229C6FAE00AD3797 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		99228E4A229C705B00AD3797 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
+		99228E4C229C71D600AD3797 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		99228E4E229C724400AD3797 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZMeetroom-Bridging-Header.h"; sourceTree = "<group>"; };
 		99C64882229C0949001B4123 /* AZMeetroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZMeetroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C64885229C0949001B4123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C64887229C0949001B4123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,12 @@
 		99C648A1229C094B001B4123 /* AZMeetroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZMeetroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C648A5229C094B001B4123 /* AZMeetroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZMeetroomUITests.swift; sourceTree = "<group>"; };
 		99C648A7229C094B001B4123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C648B3229C179A001B4123 /* AvailableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailableView.xib; sourceTree = "<group>"; };
+		99C648B9229C1B84001B4123 /* AvailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableView.swift; sourceTree = "<group>"; };
+		A1F1A02C112B4DB392B519E6 /* Pods_AZMeetroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZMeetroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41706CD666EC94D31D673D9 /* Pods-AZMeetroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroom.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom.release.xcconfig"; sourceTree = "<group>"; };
+		D78FCF4FAD8F2786219F14ED /* Pods_AZMeetroomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZMeetroomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DA8F2EB3C85DAD8F8BC297 /* Pods-AZMeetroomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZMeetroomUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZMeetroomUITests/Pods-AZMeetroomUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1590ACDF6F78270599825C2B /* Pods_AZMeetroom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B9205F2D9C5DE9C5A860A5 /* Pods_AZMeetroomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1790057F1248CC61E09D8926 /* Pods_AZMeetroomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A6F469C49780E993534BE95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47405E95F9C56A7B1550DB2B /* Pods-AZMeetroom.debug.xcconfig */,
+				B41706CD666EC94D31D673D9 /* Pods-AZMeetroom.release.xcconfig */,
+				475F303ADA0D55842D01D0E4 /* Pods-AZMeetroomTests.debug.xcconfig */,
+				8B1F9A05977DBFA01677CE8E /* Pods-AZMeetroomTests.release.xcconfig */,
+				F2DA8F2EB3C85DAD8F8BC297 /* Pods-AZMeetroomUITests.debug.xcconfig */,
+				6D53597F6155A4F02C79B363 /* Pods-AZMeetroomUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99228E47229C6F8B00AD3797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99228E48229C6FAE00AD3797 /* Helper.swift */,
+				99228E4E229C724400AD3797 /* Extension.swift */,
+				99486A09229D18C9004C7AD4 /* AZMeetroom-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		99C64879229C0949001B4123 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +140,8 @@
 				99C64899229C094B001B4123 /* AZMeetroomTests */,
 				99C648A4229C094B001B4123 /* AZMeetroomUITests */,
 				99C64883229C0949001B4123 /* Products */,
+				6A6F469C49780E993534BE95 /* Pods */,
+				D52A19BA3CEF0C94DD0C0A68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +158,11 @@
 		99C64884229C0949001B4123 /* AZMeetroom */ = {
 			isa = PBXGroup;
 			children = (
+				99228E47229C6F8B00AD3797 /* Supporting Files */,
 				99C64885229C0949001B4123 /* AppDelegate.swift */,
 				99C64887229C0949001B4123 /* ViewController.swift */,
+				99C648B7229C1B41001B4123 /* Controllers */,
+				99C648B5229C1AEB001B4123 /* Views */,
 				99C64889229C0949001B4123 /* Main.storyboard */,
 				99C6488C229C094B001B4123 /* Assets.xcassets */,
 				99C6488E229C094B001B4123 /* LaunchScreen.storyboard */,
@@ -125,6 +189,54 @@
 			path = AZMeetroomUITests;
 			sourceTree = "<group>";
 		};
+		99C648B5229C1AEB001B4123 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99C648B6229C1B08001B4123 /* Container Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99C648B6229C1B08001B4123 /* Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				99C648B3229C179A001B4123 /* AvailableView.xib */,
+				99228E3F229C6C8300AD3797 /* ExtendView.xib */,
+				99228E43229C6D3D00AD3797 /* MeetingView.xib */,
+				99228E4A229C705B00AD3797 /* QRCodeView.xib */,
+			);
+			path = "Container Views";
+			sourceTree = "<group>";
+		};
+		99C648B7229C1B41001B4123 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99C648B8229C1B4B001B4123 /* Container Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		99C648B8229C1B4B001B4123 /* Container Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99C648B9229C1B84001B4123 /* AvailableView.swift */,
+				99228E41229C6CCD00AD3797 /* ExtendView.swift */,
+				99228E45229C6D6400AD3797 /* MeetingView.swift */,
+				99228E4C229C71D600AD3797 /* QRCodeView.swift */,
+			);
+			path = "Container Controllers";
+			sourceTree = "<group>";
+		};
+		D52A19BA3CEF0C94DD0C0A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1A02C112B4DB392B519E6 /* Pods_AZMeetroom.framework */,
+				D78FCF4FAD8F2786219F14ED /* Pods_AZMeetroomTests.framework */,
+				4059364367F18EFBC2195A29 /* Pods_AZMeetroomUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C648AA229C094B001B4123 /* Build configuration list for PBXNativeTarget "AZMeetroom" */;
 			buildPhases = (
+				773E29B166F5E4495061BDBD /* [CP] Check Pods Manifest.lock */,
 				99C6487E229C0949001B4123 /* Sources */,
 				99C6487F229C0949001B4123 /* Frameworks */,
 				99C64880229C0949001B4123 /* Resources */,
+				66B51E3C84B5503FD282E9EB /* [CP] Embed Pods Frameworks */,
+				61B369CCA56BCA2B91217C46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C648AD229C094B001B4123 /* Build configuration list for PBXNativeTarget "AZMeetroomTests" */;
 			buildPhases = (
+				189051A6500289E898A5F3BD /* [CP] Check Pods Manifest.lock */,
 				99C64892229C094B001B4123 /* Sources */,
 				99C64893229C094B001B4123 /* Frameworks */,
 				99C64894229C094B001B4123 /* Resources */,
@@ -167,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C648B0229C094B001B4123 /* Build configuration list for PBXNativeTarget "AZMeetroomUITests" */;
 			buildPhases = (
+				0AF0F98389FE7A2DCD87DB1C /* [CP] Check Pods Manifest.lock */,
 				99C6489D229C094B001B4123 /* Sources */,
 				99C6489E229C094B001B4123 /* Frameworks */,
 				99C6489F229C094B001B4123 /* Resources */,
@@ -229,8 +346,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99228E4B229C705B00AD3797 /* QRCodeView.xib in Resources */,
 				99C64890229C094B001B4123 /* LaunchScreen.storyboard in Resources */,
 				99C6488D229C094B001B4123 /* Assets.xcassets in Resources */,
+				99228E44229C6D3D00AD3797 /* MeetingView.xib in Resources */,
+				99C648B4229C179A001B4123 /* AvailableView.xib in Resources */,
+				99228E40229C6C8300AD3797 /* ExtendView.xib in Resources */,
 				99C6488B229C0949001B4123 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +372,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF0F98389FE7A2DCD87DB1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZMeetroomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		189051A6500289E898A5F3BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZMeetroomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B369CCA56BCA2B91217C46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66B51E3C84B5503FD282E9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZMeetroom/Pods-AZMeetroom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773E29B166F5E4495061BDBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZMeetroom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99C6487E229C0949001B4123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99C64888229C0949001B4123 /* ViewController.swift in Sources */,
+				99C648BA229C1B84001B4123 /* AvailableView.swift in Sources */,
+				99228E46229C6D6400AD3797 /* MeetingView.swift in Sources */,
+				99228E4D229C71D600AD3797 /* QRCodeView.swift in Sources */,
+				99228E42229C6CCD00AD3797 /* ExtendView.swift in Sources */,
 				99C64886229C0949001B4123 /* AppDelegate.swift in Sources */,
+				99228E49229C6FAE00AD3797 /* Helper.swift in Sources */,
+				99228E4F229C724400AD3797 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +674,7 @@
 		};
 		99C648AB229C094B001B4123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47405E95F9C56A7B1550DB2B /* Pods-AZMeetroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,6 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +693,7 @@
 		};
 		99C648AC229C094B001B4123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41706CD666EC94D31D673D9 /* Pods-AZMeetroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adler.balogh.AZMeetroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AZMeetroom/Supporting Files/AZMeetroom-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +712,7 @@
 		};
 		99C648AE229C094B001B4123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475F303ADA0D55842D01D0E4 /* Pods-AZMeetroomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +733,7 @@
 		};
 		99C648AF229C094B001B4123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1F9A05977DBFA01677CE8E /* Pods-AZMeetroomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +754,7 @@
 		};
 		99C648B1229C094B001B4123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DA8F2EB3C85DAD8F8BC297 /* Pods-AZMeetroomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +774,7 @@
 		};
 		99C648B2229C094B001B4123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D53597F6155A4F02C79B363 /* Pods-AZMeetroomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
